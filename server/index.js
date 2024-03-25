@@ -11,7 +11,7 @@ const app = express()
 
 const PORT = process.env.PORT || 5000
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173', 'https://medbot-frontend.vercel.app'];
 
 const corsOptions = {
     origin: function (origin, callback) {
